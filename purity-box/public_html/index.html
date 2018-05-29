@@ -24,26 +24,194 @@
     </head>
     <body>
 
+        <!--HEADER START-->
         <header>
-            <div class="container">
-                <ul class="header-top col-md-8 ml-md-auto list-unstyled d-flex justify-content-between px-0 py-3">
-                    <li class="header-location">
-                        <a href="#" class="pr-2">
-                            <img src="css/assets/location-mark.png" alt=""/>
+            <!--HEADER TOP-->
+            <section class="header-top">
+                <div class="container">
+                    <ul class="col-lg-9 col-xl-8 ml-md-auto list-unstyled d-flex justify-content-between mb-0 px-0 pt-3">
+                        <li class="header-location">
+                            <a href="#" class="pr-2">
+                                <img src="css/assets/location-mark.png" alt=""/>
+                            </a>
+                            <a href="#">PurityBox Store</a>
+                        </li>
+                        <!--VISIBLE FROM 768px-->
+                        <li class="header-contact d-none d-md-flex justify-content-md-between">
+                            <p>+381 11 40 30 671</p>
+                            <p>+381 63 224 522</p>
+                        </li>
+                        <li class="header-user d-sm-flex justify-content-sm-between">
+                            <a href="#">Prijava</a>
+                            <a href="#">Registracija</a>
+                        </li>
+                    </ul>
+                </div>
+            </section>
+
+            <!--HEADER BOTTOM-->
+            <section class="header-bottom">
+                <div class="container">
+                    <nav class="navbar navbar-expand-lg navbar-light px-0">
+                        
+                        <!--LOGO-->
+                        <a class="navbar-brand" href="#">
+                            <img src="img/logo.png" alt=""/>
                         </a>
-                        <a href="#">PurityBox Store</a>
-                    </li>
-                    <li class="header-contact d-none d-md-flex justify-content-md-between">
-                        <p>+381 11 40 30 671</p>
-                        <p>+381 63 224 522</p>
-                    </li>
-                    <li class="header-user">
-                        <a href="#">Prijava</a>
-                        <a href="#">Registracija</a>
-                    </li>
-                </ul>
-            </div>
-        </header>
+
+                        <div class="shop mr-3 mr-lg-0 ml-auto ml-lg-4 pl-lg-4 ml-xl-5 pl-xl-5">
+                            <a href="#" class="d-inline-block">
+                                <img src="css/assets/shopping-bag.png" alt=""/>
+                                <span>0</span>
+                            </a>
+                        </div>
+
+                        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+
+                        <div class="collapse navbar-collapse main-nav" id="navbarSupportedContent">
+                            <ul class="navbar-nav w-100 justify-content-lg-between">
+                                <li class="nav-item purity-dropdown">
+                                    <a class="nav-link" href="#">
+                                        PurityBox
+                                    </a>
+                                    <section class="purity-packages-dropdown mt-2">
+                                        <div class="container">
+                                            <ul class="row list-unstyled">
+                                                <li class="col-sm-4 mb-3 mb-sm-0">
+                                                    <a href="#" class="d-block">
+                                                        <img class="mb-3" src="img/purity-packages/classic-package.png" alt=""/>
+                                                        <h1>
+                                                            Want a Treat?<br>
+                                                            It's Easter :O!
+                                                        </h1>
+                                                    </a>
+                                                    <a href="#">
+                                                        <h5 class="text-uppercase text-center mb-0">Classic</h5>
+                                                    </a>
+                                                </li>
+                                                <li class="col-sm-4 mb-3 mb-sm-0">
+                                                    <a href="#" class="d-block">
+                                                        <img class="mb-3" src="img/purity-packages/weekend-package.png" alt=""/>
+                                                        <h1>
+                                                            Want a Treat?<br>
+                                                            It's Easter :O!
+                                                        </h1>
+                                                    </a>
+                                                    <a href="#">
+                                                        <h5 class="text-uppercase text-center mb-0">Weekend</h5>
+                                                    </a>
+                                                </li>
+                                                <li class="col-sm-4 mb-3 mb-sm-0">
+                                                    <a href="#" class="d-block">
+                                                        <img class="mb-3" src="img/purity-packages/kid-package.png" alt=""/>
+                                                        <h1>
+                                                            Want a Treat?<br>
+                                                            It's Easter :O!
+                                                        </h1>
+                                                    </a>
+                                                    <a href="#">
+                                                        <h5 class="text-uppercase text-center mb-0">Kid</h5>
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </section>
+                                </li>
+                                <li class="nav-item shop-dropdown">
+                                    <a class="nav-link" href="#">Shop</a>
+                                    <section class="shop-products-dropdown mt-2">
+                                        <div class="container">
+                                            <ul class="list-unstyled row">
+                                                <li class="col-sm-6 col-md-4 col-lg">
+                                                    <a class="text-uppercase" href="#"><h6>Nega lica</h6></a>
+                                                    <ul class="list-unstyled">
+                                                        <li><a href="#">Čišćenje</a></li>
+                                                        <li><a href="#">Pilinzi i maske</a></li>
+                                                        <li><a href="#">Tonici</a></li>
+                                                        <li><a href="#">Koncetrati</a></li>
+                                                        <li><a href="#">Hidratantne kreme</a></li>
+                                                        <li><a href="#">Anti-age kreme</a></li>
+                                                        <li><a href="#">Oštećena koža</a></li>
+                                                        <li><a href="#">Protiv pega</a></li>
+                                                        <li><a href="#">Proširene pore</a></li>
+                                                        <li><a href="#">Nega predela kod očiju i nega usana</a></li>
+                                                        <li><a href="#">Protiv akni</a></li>
+                                                        <li><a href="#">Nega za muškarce</a></li>
+                                                        <li><a href="#">Setovi</a></li>
+                                                        <li><a href="#">FOREO nega lica i oralna nega</a></li>
+                                                    </ul>
+                                                </li>
+                                                <li class="col-sm-6 col-md-4 col-lg">
+                                                    <a class="text-uppercase" href="#"><h6>Nega tela</h6></a>
+                                                    <ul class="list-unstyled">
+                                                        <li><a href="#">Nega suve kože</a></li>
+                                                        <li><a href="#">Nega protiv starenja</a></li>
+                                                        <li><a href="#">Nega protiv celulita</a></li>
+                                                        <li><a href="#">Vene i kapilari</a></li>
+                                                        <li><a href="#">Ulja za masažu</a></li>
+                                                        <li><a href="#">Ruke i stopala</a></li>
+                                                        <li><a href="#">Tuširanje</a></li>
+                                                        <li><a href="#">Deo</a></li>
+                                                        <li><a href="#">Intimna nega</a></li>
+                                                    </ul>
+                                                </li>
+                                                <li class="col-sm-6 col-md-4 col-lg">
+                                                    <a class="text-uppercase" href="#"><h6>Nega kose</h6></a>
+                                                    <ul class="list-unstyled">
+                                                        <li><a href="#">Maske i tretmani</a></li>
+                                                        <li><a href="#">Serumi i ulja</a></li>
+                                                        <li><a href="#">Regeneratori</a></li>
+                                                        <li><a href="#">Šamponi</a></li>
+                                                        <li><a href="#">Biolage RAW</a></li>
+                                                    </ul>
+                                                </li>
+                                                <li class="col-sm-6 col-md-4 col-lg">
+                                                    <a class="text-uppercase" href="#"><h6>Nega za sunčanje</h6></a>
+                                                </li>
+                                                <li class="col-sm-6 col-md-4 col-lg">
+                                                    <a class="text-uppercase" href="#"><h6>Beauty secrets</h6></a>
+                                                    <ul class="list-unstyled">
+                                                        <li><a href="#">Forreo Issa</a></li>
+                                                        <li><a href="#">Forreo Luna</a></li>
+                                                        <li><a href="#">Wonderstripes</a></li>
+                                                    </ul>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </section>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">Kid Shop</a>
+                                    <ul class="list-unstyled d-none">
+                                        <li><a class="dropdown-item" href="#">Action</a></li>
+                                        <li><a class="dropdown-item" href="#">Another action</a></li>
+                                        <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                    </ul>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">G is for GIFT</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">H is for HER</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">R is for ROUTINE</a>
+                                </li>
+                                <li class="nav-item d-lg-flex justify-content-lg-between position-relative">
+                                    <form class="search-form input-group my-2 my-lg-0">
+                                        <input class="form-control rounded-0" type="search" placeholder="Search" aria-label="Search">
+                                        <button class="btn fa fa-search rounded-0" type="submit"></button>
+                                    </form>
+                                    <a href="javascript:void(0)" class="show-search fa fa-search ml-3"></a>
+                                </li>
+                            </ul>
+                        </div>
+                    </nav>
+                </div>
+            </section>
+        </header><!--HEADER END-->
 
 
 
