@@ -1,0 +1,62 @@
+html{
+    font-size: 14px;
+    color: #161616;
+}
+
+body{
+    font-family: 'Gotham-Book';
+}
+
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Gotham-Bold';
+}
+
+img{
+    max-width: 100%;
+}
+
+*:hover,*:focus,*:active{
+    box-shadow: none !important;
+}
+
+a{
+    text-decoration: none !important;
+    color: #161616;
+}
+
+a:hover,a:focus,a:active{
+    outline: none !important;
+    color: #000;
+}
+
+button:hover,button:focus,button:active{
+    outline: none !important;
+}
+
+form input:focus,
+form button:focus{
+    box-shadow: none !important;
+}
+
+/***************
+****HOMEPAGE****
+***************/
+
+/*****HEADER*****/
+
+.header-top li{
+    margin-bottom: 10px;
+}
+
+header .header-location{
+    font-family: 'Gotham-Bold';
+}
+
+header .header-contact p{
+    margin-bottom: 0;
+}
+
+header .header-user a{
+    display: block;
+    text-align: right;
+}

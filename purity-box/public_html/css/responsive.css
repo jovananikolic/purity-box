@@ -1,0 +1,39 @@
+@media(min-width:576px){
+
+
+
+}
+
+@media(min-width:768px){
+
+    header .header-contact p{
+        padding: 0 15px;
+        border-right: 1px solid #161616;
+        display: inline-block;
+        margin-bottom: 0;
+    }
+
+    header .header-contact p:last-of-type{
+        border-right: none;
+    }
+
+    header .header-user a:first-of-type{
+        padding-right: 45px;
+    }
+
+}
+
+
+
+
+@media(min-width:992px){
+
+
+
+}
+
+@media(min-width:1200px){
+
+
+
+}
