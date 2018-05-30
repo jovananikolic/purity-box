@@ -103,7 +103,7 @@
         width: 0px;
         overflow: hidden;
         opacity: 0;
-        transition: 0.02s ease;
+        transition: 1s ease;
 
     }
     .search-form.open-search{
@@ -134,6 +134,14 @@
 
     .header-user a:first-of-type{
         padding-right: 45px;
+    }
+    
+    .header-bottom .navbar-brand{
+        margin-right: 100px;
+    }
+    
+    .header-bottom .navbar-brand img{
+        width: 100%;
     }
 
 }
